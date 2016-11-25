@@ -1,0 +1,454 @@
+footer {
+
+     font-family:quicksandbold;
+   font-size:.8em;
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height:3em;
+   text-align: center;
+   position:fixed;
+ }
+
+#text{ z-index: 100;
+ position: absolute;
+ font-size: 30px;
+ font-family:'Josefin Slab '
+ }
+
+.h1{
+   font-family:quicksand;
+}
+
+ #textonimage{
+   position: absolute;
+ }
+
+.navbar-bland{
+  display: block;
+  text-align: center;
+}
+
+ul{
+width:100%;
+background-color:rgba(253, 252, 232, 0.53);
+}
+.nav li a{
+  text-align: center;
+ font-family:'Archivo Black', sans-serif;
+ color:#428c40;
+}
+v
+.navbar-bland{
+  display: block;
+  text-align: center;
+}
+
+.nav li:nth-child(4n+1){
+  background-color: rgba(240, 182, 56, 0.53);
+}
+.nav li:nth-child(4n+2){
+  background-color:  rgba(167,125,111, 0.53);
+}
+.nav li:nth-child(4n+3){
+  background-color: rgba(240, 182, 56, 0.53);
+}
+.nav li:nth-child(4n+4){
+  background-color:  rgba(167,125,111, 0.53);
+}
+.nav li:nth-child(4n+5){
+  background-color: rgba(240, 182, 56, 0.53);
+}
+
+.center{
+     font-family:quicksandbold;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust:100%;
+   -o-text-size-adjust:100%;
+}
+#textmenu{
+  font-family:quicksandbold;
+text-align: center;
+}
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 40px;
+    height: 0;
+    overflow: hidden;
+}
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding-left: 50px;
+
+padding-right: 50px;
+    width: 80%;
+    height: 100%;
+}
+.logo {
+float:left;
+left:80px;
+top:2px;
+ position:absolute;
+}
+
+.logo2 img{
+    max-width: 100%;
+    height: auto;
+    width:324px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ #pics a img{
+   display:block;
+   border-style: solid;
+      border-width: 8px;
+      border-color:#428c40;
+      width:250px;
+  margin: 0 auto;
+}
+#textcontact {
+  text-align: center;
+  font-family:quicksandbold;
+}
+body{
+   background-image: url('../img/beetsaladada.png') ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+   }
+
+
+   .item {
+   	position: relative;
+   	-webkit-flex: 1 0 25%;
+   	flex: 1 0 25%;
+   	overflow: hidden;
+   	height: 22vw;
+   	outline: none;
+
+   }
+
+   .item__image {
+   	position: absolute;
+   	top: 50%;
+   	min-height: 100%;
+   	width: 100%;
+   	opacity: 0.7;
+   	-webkit-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
+   	transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
+   	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+   	transition: transform 0.5s, opacity 0.5s;
+   }
+
+
+
+ @keyframes imageAnimation {
+   0% {
+     animation-timing-function: ease-in;
+     opacity: 0;
+   }
+   10% {
+     animation-timing-function: ease-out;
+     opacity: 0.9;
+   }
+   15% {
+     opacity: 0.9;
+   }
+
+  25%{opacity:0;
+  }
+   100% {
+      opacity: 0;
+    }
+
+ };
+
+
+
+
+
+ @media (max-width: 767px) {
+ 	.content {
+ 		padding: 0px;
+ 		margin-top: 100px;
+ 	}
+ }
+.container{
+  height: 100%;
+}
+ @media (min-width: 768px) {
+
+   #menu-bar .panel {
+  margin-bottom: 0;
+  background-color: rgba(206, 136, 44, 0.9);
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  }
+
+  #menu-bar li a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+       font-family:'Archivo Black', sans-serif;
+       text-align: center;
+       transition: border .5s;
+  }
+
+   	#navbar {
+   		float: left;
+   		width: 210px;
+   		height: 100%;
+      background-color: rgba(240, 182, 56, 0.53);
+
+
+   	}
+
+
+ 	.content {
+ 		margin-left: 210px;
+ 		min-height: 100%;
+		 	}
+
+ 	.container {
+ 		margin-left: 0px
+		position: relative;
+		min-height: 100%;
+		min-width: 100%;
+ 	}
+
+
+
+
+ }
+
+
+
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+ .cssload-container * {
+ 	color: rgb(0,0,0);
+ 	font-size: 33px;
+ 	font-weight: 700;
+ 	font-family: 'Archivo Black', sans-serif;
+ }
+ .cssload-container {
+ 	position: absolute;
+ 	width: 117px;
+ 	height: 49px;
+ 	left: 20%;
+  top:20%;
+ 	transform: translate(-50%, -50%);
+ 		-o-transform: translate(-50%, -50%);
+ 		-ms-transform: translate(-50%, -50%);
+ 		-webkit-transform: translate(-50%, -50%);
+ 		-moz-transform: translate(-50%, -50%);
+ }
+ .cssload-container > div {
+ 	position: absolute;
+ 	transform-origin: center;
+ 		-o-transform-origin: center;
+ 		-ms-transform-origin: center;
+ 		-webkit-transform-origin: center;
+ 		-moz-transform-origin: center;
+ }
+ .cssload-w {
+ 	left: 1px;
+ }
+ .cssload-e {
+ 	left: 35px;
+ }
+ .cssload-l {
+ 	left: 60px;
+ }
+ .cssload-c {
+ 	left: 81px;
+ }
+ .cssload-m {
+   left: 138px;
+ }
+ .cssload-e2 {
+   left: 168px;
+ }
+
+ .cssload-square,
+ .cssload-circle,
+ .cssload-triangle {
+ 	left: 120px;
+ }
+ .cssload-square {
+ 	background: rgb(249,168,75);
+ 	width: 23px;
+ 	height: 23px;
+ 	left: 108px;
+ 	top: 12px;
+ 	transform: scale(0);
+ 		-o-transform: scale(0);
+ 		-ms-transform: scale(0);
+ 		-webkit-transform: scale(0);
+ 		-moz-transform: scale(0);
+ 	animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+ 		-o-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+ 		-ms-animation: cssload-shrinkgrow  9.75s ease-in-out infinite;
+ 		-webkit-animation: cssload-shrinkgrow  9.75s ease-in-out infinite;
+ 		-moz-animation: cssload-shrinkgrow  9.75s ease-in-out infinite;
+ 	animation-delay: 6.5s;
+ 		-o-animation-delay: 6.5s;
+ 		-ms-animation-delay: 6.5s;
+ 		-webkit-animation-delay: 6.5s;
+ 		-moz-animation-delay: 6.5s;
+ }
+ .cssload-circle {
+ 	background: rgb(208,92,54);
+ 	width: 26px;
+ 	height: 26px;
+ 	top: 10px;
+ 	left: 108px;
+ 	border-radius: 50%;
+  animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+		-o-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+		-ms-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+		-webkit-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+		-moz-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+	animation-delay: 0s;
+		-o-animation-delay: 0s;
+		-ms-animation-delay: 0s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+}
+ .cssload-triangle {
+ 	width: 0;
+ 	height: 0;
+ 	left: 108px;
+ 	top: 11px;
+ 	border-style: solid;
+ 	border-width: 0 14.5px 24.1px 14.5px;
+ 	border-color: transparent transparent rgb(167,125,111) transparent;
+ 	transform: scale(0);
+ 		-o-transform: scale(0);
+ 		-ms-transform: scale(0);
+ 		-webkit-transform: scale(0);
+ 		-moz-transform: scale(0);
+    animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+  		-o-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+  		-ms-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+  		-webkit-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+  		-moz-animation: cssload-shrinkgrow 9.75s ease-in-out infinite;
+  	animation-delay: 3.25s;
+  		-o-animation-delay: 3.25s;
+  		-ms-animation-delay: 3.25s;
+  		-webkit-animation-delay: 3.25s;
+  		-moz-animation-delay: 3.25s;
+  }
+
+navbar-brand{
+  float:left;
+  left:80px;
+  top:2px;
+    position:absolute;
+    border-style: none;
+}
+
+
+ @keyframes cssload-shrinkgrow {
+ 	0% {
+ 		transform: scale(0);
+ 	}
+ 	12.5% {
+ 		transform: scale(1);
+ 	}
+ 	25% {
+ 		transform: scale(1);
+ 	}
+ 	33% {
+ 		transform: scale(0);
+ 	}
+ 	100% {
+ 		transform: scale(0);
+ 	}
+ }
+
+ @-o-keyframes cssload-shrinkgrow {
+ 	0% {
+ 		-o-transform: scale(0);
+ 	}
+ 	12.5% {
+ 		-o-transform: scale(1);
+ 	}
+ 	25% {
+ 		-o-transform: scale(1);
+ 	}
+ 	33% {
+ 		-o-transform: scale(0);
+ 	}
+ 	100% {
+ 		-o-transform: scale(0);
+ 	}
+ }
+
+ @-ms-keyframes cssload-shrinkgrow {
+ 	0% {
+ 		-ms-transform: scale(0);
+ 	}
+ 	12.5% {
+ 		-ms-transform: scale(1);
+ 	}
+ 	25% {
+ 		-ms-transform: scale(1);
+ 	}
+ 	33% {
+ 		-ms-transform: scale(0);
+ 	}
+ 	100% {
+ 		-ms-transform: scale(0);
+ 	}
+ }
+
+ @-webkit-keyframes cssload-shrinkgrow {
+ 	0% {
+ 		-webkit-transform: scale(0);
+ 	}
+ 	12.5% {
+ 		-webkit-transform: scale(1);
+ 	}
+ 	25% {
+ 		-webkit-transform: scale(1);
+ 	}
+ 	33% {
+ 		-webkit-transform: scale(0);
+ 	}
+ 	100% {
+ 		-webkit-transform: scale(0);
+ 	}
+ }
+
+ @-moz-keyframes cssload-shrinkgrow {
+ 	0% {
+ 		-moz-transform: scale(0);
+ 	}
+ 	12.5% {
+ 		-moz-transform: scale(1);
+ 	}
+ 	25% {
+ 		-moz-transform: scale(1);
+ 	}
+ 	33% {
+ 		-moz-transform: scale(0);
+ 	}
+ 	100% {
+ 		-moz-transform: scale(0);
+ 	}
+ }
